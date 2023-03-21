@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * description: print all aplhabet letters
+ * main - Entry point
+ * 
+ * Description: print all aplhabet letters
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	putchar('\n')
 
