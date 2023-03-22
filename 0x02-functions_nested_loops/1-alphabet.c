@@ -9,12 +9,9 @@
 void print_alphabet(void)
 
 {
-	char *al = "abcdefghijklmnopqrstuvwxyz";
-		for (int i = 0; i < 26; i++)
-		{
-			putchar(al[i]);
-		}
+	int ch;
+		for (ch = 'a'; ch <= 'z'; ch++)
+			putchar(ch);
 	putchar('\n');
-return (0);
 
 }
