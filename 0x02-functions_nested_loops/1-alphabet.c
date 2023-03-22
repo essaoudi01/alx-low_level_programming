@@ -10,11 +10,11 @@ void print_alphabet(void)
 
 {
 	char *al = "abcdefghijklmnopqrstuvwxyz";
-		for(int i = 0; i < 26;i++)
+		for (int i = 0; i < 26; i++)
 		{
 			putchar(al[i]);
 		}
 	putchar('\n');
-
+return (0);
 
 }
