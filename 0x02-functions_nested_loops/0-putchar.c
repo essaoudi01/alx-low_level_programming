@@ -8,13 +8,15 @@
  */
 int main(void)
 {
-	char *word = "_putchar";
-
-	for (int i = 0; i < 8; i++)
-	{
-		putchar(word[i]);
-	}
-		putchar('\n');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
 		return (0);
 }
